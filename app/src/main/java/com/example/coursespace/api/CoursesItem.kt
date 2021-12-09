@@ -1,8 +1,8 @@
 package com.example.coursespace.api
 
 data class CoursesItem(
-    val author: Int,
-    val category: Int,
+    val author: String,
+    val category: String,
     val date: String,
     val description: String,
     val title: String
