@@ -42,7 +42,7 @@ class RecyclerAdapter(private var titles: List<String>,
         holder.itemTitle.text = titles[position]
         holder.itemSummary.text = summaries[position]
         holder.itemDate.text = dates[position]
-        holder.itemNewsSite.text = newsSites[position]
+        holder.itemNewsSite.text =  newsSites[position]
     }
 
     override fun getItemCount(): Int {

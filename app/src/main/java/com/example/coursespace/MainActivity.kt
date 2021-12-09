@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun postToList(data: Courses){
         for(i in 0 until data.size){
-            addToList(data[i].title, data[i].description, data[i].date, data[i].author_id.toString())
+            addToList(data[i].title, data[i].description, data[i].date, data[i].author.toString())
         }
     }
 
