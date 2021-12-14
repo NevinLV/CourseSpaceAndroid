@@ -10,7 +10,9 @@ android:orientation="vertical" android:id="@+id/News"
 android:background="@color/bbblack">
 
     <androidx.appcompat.widget.Toolbar
+            app:logo="@drawable/logo24"
             app:title="Course Space"
+            app:titleMarginStart="25dp"
             app:titleTextColor="@color/white"
             android:background="@color/lblack"
             android:layout_width="match_parent"

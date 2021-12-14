@@ -4,7 +4,9 @@
         xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
         style="@style/MyCardViewStyle"
 >
 
@@ -12,8 +14,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/News"
             android:layout_marginTop="0dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="3dp"
 
     >
 
@@ -22,6 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/lblack"
+                android:layout_marginEnd="0dp"
         >
             <TextView
                     android:text="Дата публикации"
