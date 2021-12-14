@@ -25,13 +25,6 @@ class RecyclerAdapter(private var titles: List<String>,
         val itemDate: TextView = itemView.findViewById(R.id.tv_publishedAt)
         val itemNewsSite: TextView = itemView.findViewById(R.id.tv_newsSite)
 
-        val btnURL: Button = itemView.findViewById(R.id.btn_url)
-
-        init {
-            btnURL.setOnClickListener(){
-            }
-
-        }
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.item_layout, parent,false)

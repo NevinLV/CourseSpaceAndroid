@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".AddFragment">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lblack"
+                android:textColor="@color/lightGray"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:inputType="textPersonName"
+                android:text="Название курса"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName2"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:background="@color/lblack"
+                android:textColor="@color/lightGray"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:text="Автор"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName3"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:background="@color/lblack"
+                android:textColor="@color/lightGray"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:text="Описание"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName4"/>
+        <Button
+                android:text="Добавить курс"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button2"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:textColor="@color/bbblack"/>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

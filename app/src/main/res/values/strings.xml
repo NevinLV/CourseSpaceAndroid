@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Course Space</string>
     <string name="more">ПЕРЕЙТИ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Main">Main</string>
+    <string name="Search">Search</string>
+    <string name="Add">Add</string>
+    <string name="User">User</string>
 </resources>

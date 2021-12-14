@@ -15,7 +15,7 @@
             android:layout_height="wrap_content" android:id="@+id/News"
             android:layout_marginTop="0dp"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="3dp"
+            android:layout_marginEnd="10dp"
 
     >
 
@@ -23,21 +23,38 @@
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/lblack"
                 android:layout_marginEnd="0dp"
         >
-            <TextView
-                    android:text="Дата публикации"
+            <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/tv_publishedAt"
-                    android:textAlignment="textEnd"
-            android:textColor="@color/white"/>
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:gravity="end"
+            >
+                <TextView
+                        android:text="Автор"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/tv_newsSite" android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:gravity="start"
+                        android:textColor="@color/white"/>
+                <TextView
+                        android:text="Дата публикации"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/tv_publishedAt"
+                        android:textAlignment="textEnd"
+                        android:textColor="#9F9F9F"/>
+
+            </LinearLayout>
             <TextView
                     android:text="Заголовок"
                     android:textColor="#FFFFFF"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/tv_title" android:textSize="18sp"
-                    android:textStyle="bold"/>
+                    android:layout_height="wrap_content" android:id="@+id/tv_title" android:textSize="20sp"
+                    android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
             <TextView
                     android:text="Описание"
                     android:textColor="#F6F6F6"
@@ -50,25 +67,6 @@
 <!--                    app:srcCompat="@drawable/ic_launcher_background"-->
 <!--                    android:id="@+id/imageView"-->
 <!--                    android:layout_gravity="center"/>-->
-            <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/lblack"
-                    android:layout_gravity="end"
-                    android:gravity="end"
-            >
-                <TextView
-                        android:text="Сайт"
-                        android:layout_gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" android:id="@+id/tv_newsSite" android:layout_weight="1"
-                        android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:gravity="start"
-                android:textColor="@color/white"/>
-
-            </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

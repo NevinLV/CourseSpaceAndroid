@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".SearchFragment">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_margin="10dp"
+                android:background="@color/lblack"
+                android:textColor="@color/lightGray"
+                android:padding="5dp"
+                android:text="Поиск"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName"/>
+        <Button
+                android:text="Найти курс!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button"
+                android:layout_margin="10dp"
+        android:background="@color/white"
+        android:textColor="@color/bbblack"/>
+    </LinearLayout>
+</FrameLayout>
