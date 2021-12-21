@@ -27,7 +27,7 @@ private var newsSiteList = mutableListOf<String>()
 private var links = mutableListOf<String>()
 
 
-const val BASE_URL = "https://course-space.herokuapp.com/api/"
+const val BASE_URL = "https://course-space.herokuapp.com/api/v1/"
 val TAG = "CatalogFragment"
 
 

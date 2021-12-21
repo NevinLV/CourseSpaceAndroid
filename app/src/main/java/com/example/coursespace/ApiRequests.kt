@@ -5,6 +5,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface ApiRequests {
-    @GET("courses/?format=json")
+    @GET("courses/all/?format=json")
     fun getCorses(): Call<Courses>
 }
